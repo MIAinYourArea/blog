@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 
 function App() {
- let [titleList, setTiltle] = useState(['강남 맛집', '역삼 맛집', '여자 코트 추천']);
+ let [titleList, setTiltle] = useState(['강남 맛집', '사당 맛집', '여자 코트 추천']);
  let [likeList, setCnt] = useState([0,0,0]);
  let [modal, setModal] = useState(false);
  let [titleKey, setKey] = useState(0);
